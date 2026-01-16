@@ -1,6 +1,7 @@
 # 🏦 Analisis Risiko Kredit (Credit Risk): Solusi End-to-End Business Intelligence
 
-![Dashboard Preview](assets/dashboard_full.png)
+![Dashboard Preview]<img width="1335" height="730" alt="image" src="https://github.com/user-attachments/assets/cc02c4ac-bf75-4aa1-a564-efbabd99eaa2" />
+
 > *Dashboard Manajemen Risiko Eksekutif untuk meminimalisir Non-Performing Loans (NPL) melalui segmentasi nasabah berbasis data.*
 
 ## 📌 Ringkasan Proyek (Executive Summary)
@@ -14,7 +15,7 @@ Membangun **pipeline data otomatis** dan **dashboard interaktif** yang memungkin
 2.  Mendeteksi pola "risiko tersembunyi" (seperti nasabah yang *Over-leveraged*).
 3.  Melakukan simulasi strategi kredit melalui fitur *cross-filtering*.
 
-**Teknologi yang Digunakan:**
+**Tools yang Digunakan:**
 * **SQL (PostgreSQL):** Data Cleaning, Complex Joins, CTEs, Window Functions.
 * **Tableau Public:** Visualisasi Data Interaktif & Dashboard Actions.
 * **DBeaver:** Database Management.
