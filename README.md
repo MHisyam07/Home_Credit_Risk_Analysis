@@ -1,4 +1,4 @@
-# 🏦 Analisis Risiko Kredit (Credit Risk): Solusi End-to-End Business Intelligence
+# 🏦 Analisis Risiko Kredit (Credit Risk): End-to-End Business Intelligence
 
 ![Dashboard Preview]<img width="1335" height="730" alt="image" src="https://github.com/user-attachments/assets/cc02c4ac-bf75-4aa1-a564-efbabd99eaa2" />
 
@@ -37,9 +37,9 @@ Proyek ini menggunakan dataset **Home Credit Default Risk** yang mensimulasikan 
 
 Sebelum membangun dashboard, saya melakukan 6 tahap analisis mendalam menggunakan SQL untuk memvalidasi hipotesis risiko. Berikut adalah rangkuman temuan dari file `02_eda_investigation.sql`:
 
-### 1. Menentukan Baseline (Tolok Ukur Nasional)
+### 1. Menentukan Baseline (Tolok Ukur keseluruhan)
 Langkah pertama adalah mencari angka rata-rata gagal bayar sebagai acuan (*Threshold*).
-* **Temuan:** Rata-rata Bad Rate Nasional adalah **~8.07%**.
+* **Temuan:** Rata-rata Bad Rate keseluruhan adalah **~8.07%**.
 * **Implikasi:** Segmen apa pun yang memiliki Bad Rate di atas 8.07% akan dikategorikan sebagai **"High Risk"** (Zona Merah).
 
 ### 2. Risiko Berdasarkan Pekerjaan (Income Type)
@@ -65,8 +65,8 @@ Langkah pertama adalah mencari angka rata-rata gagal bayar sebagai acuan (*Thres
 * **Hipotesis:** Semakin besar cicilan dibanding gaji (*Annuity/Income*), semakin besar risiko macet.
 * **Temuan Anomali:**
     * Rasio Cicilan **<10%** adalah yang paling aman.
-    * Namun, risiko tertinggi justru ada di kelas menengah (Rasio **20-30%**), bukan di rasio terbesar (>40%).
-    * *Analisis:* Nasabah dengan rasio >40% mungkin merupakan segmen *High Net Worth* yang memiliki sumber dana lain, sehingga tetap lancar bayar.
+    * Namun, risiko tertinggi justru ada di kelas menengah (Rasio **20-30%**), bukan di rasio terbesar (>30%).
+    * *Analisis:* Nasabah dengan rasio >30% mungkin merupakan segmen *High Net Worth* yang memiliki sumber dana lain, sehingga tetap lancar bayar.
 
 ### 6. Analisis Utang Luar (Bureau / External Debt)
 * **Hipotesis:** Fenomena "Gali Lubang Tutup Lubang" (*Over-leveraged*).
@@ -76,7 +76,7 @@ Langkah pertama adalah mencari angka rata-rata gagal bayar sebagai acuan (*Thres
 
 ## 📊 Strategi Dashboard: Cross-Analysis & Interactivity
 
-Alih-alih menyajikan data statis, Dashboard ini dirancang dengan fitur **Action Filters** untuk memungkinkan *Risk Manager* melakukan validasi hipotesis secara mandiri.
+Dashboard ini tidak hanya menyajikan data statis, Dashboard ini dirancang dengan fitur **Action Filters** untuk memungkinkan *Risk Manager* melakukan validasi hipotesis secara mandiri.
 
 **Skenario Penggunaan (Use Case):**
 
@@ -88,9 +88,9 @@ Dengan Dashboard ini, user dapat melakukan **Drill-Down Analysis**:
 3.  User kemudian dapat melihat grafik *Affordability* dan *Bureau Debt* di bagian bawah yang sudah terfilter.
 
 **Tujuan:**
-Fitur ini memungkinkan penemuan **"Micro-Segments"** potensial. Misalnya, user dapat membuktikan apakah Anak Muda yang *Tidak Punya Utang Luar* sebenarnya memiliki profil risiko yang aman (Hijau) sehingga layak diberi pinjaman ("Hidden Gem").
+Fitur ini memungkinkan penemuan **"Micro-Segments"** potensial. Misalnya, user dapat membuktikan apakah Anak Muda yang *Tidak Punya Utang Luar* sebenarnya memiliki profil risiko yang aman sehingga layak diberi pinjaman ("Hidden Gem").
 
-👉 **[Lihat Dashboard Live di Tableau Public](MASUKKAN_LINK_TABLEAU_ANDA_DISINI)**
+👉 **[Lihat Dashboard Live di Tableau Public]https://public.tableau.com/views/Book1_17684874776250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link**
 
 ---
 
@@ -104,7 +104,7 @@ Fitur ini memungkinkan penemuan **"Micro-Segments"** potensial. Misalnya, user d
 
 ---
 
-## 📝 Penulis
-**[Nama Lengkap Anda]**
+## 📝 Portfolio Project
+**[Mochammad Hisyam]**
 Data Analyst Enthusiast | SQL & Tableau Specialist
-[Link LinkedIn Anda] | [Email Anda]
+[Link LinkedIn] | [mhisyam676@gmail.com]
