@@ -106,5 +106,4 @@ Fitur ini memungkinkan penemuan **"Micro-Segments"** potensial. Misalnya, user d
 
 ## 📝 Portfolio Project
 **[Mochammad Hisyam]**
-Data Analyst Enthusiast | SQL & Tableau Specialist
-[Link LinkedIn] | [mhisyam676@gmail.com]
+Data Analyst Enthusiast | SQL & Tableau Specialist | [mhisyam676@gmail.com]
